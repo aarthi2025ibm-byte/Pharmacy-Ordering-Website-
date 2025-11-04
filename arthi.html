@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy Store</title>
+    <link rel="stylesheet" href="css/arthi.css">
+</head>
+<body>
+
+<header>
+    <h2>💊 MyPharma Store</h2>
+</header>
+
+<div class="container">
+
+    <h3>Available Medicines</h3>
+    
+    <div class="medicine-list">
+
+        <div class="medicine">
+            <h4>Paracetamol</h4>
+            <p>Fever & Pain Relief</p>
+            <span>₹30</span>
+            <button onclick="addToCart('Paracetamol',30)">Add to Cart</button>
+        </div>
+
+        <div class="medicine">
+            <h4>Amoxicillin</h4>
+            <p>Antibiotic</p>
+            <span>₹120</span>
+            <button onclick="addToCart('Amoxicillin',120)">Add to Cart</button>
+        </div>
+
+        <div class="medicine">
+            <h4>Vitamin C Tablets</h4>
+            <p>Boost Immunity</p>
+            <span>₹85</span>
+            <button onclick="addToCart('Vitamin C',85)">Add to Cart</button>
+        </div>
+
+        <div class="medicine">
+            <h4>ORS Packet</h4>
+            <p>Dehydration Solution</p>
+            <span>₹20</span>
+            <button onclick="addToCart('ORS Packet',20)">Add to Cart</button>
+        </div>
+
+    </div>
+
+
+    <h3>🛒 Your Cart</h3>
+    
+    <ul id="cartList"></ul>
+    <h3>Total: ₹<span id="total">0</span></h3>
+
+</div>
+
+<script src="css/javascript/arthi.js"></script>
+</body>
+</html>
